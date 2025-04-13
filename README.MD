@@ -1,7 +1,7 @@
 # 🌎 DBClimaGT — Base de Datos Climatológica de Guatemala
 
 > **Proyecto personal de documentación, automatización y análisis de datos climáticos históricos para Guatemala.**  
-> Objetivo: Crear una base de datos sólida y replicable que permita almacenar, consultar y automatizar la carga de datos climatológicos desde Ubuntu, para uso técnico, académico y de toma de decisiones.
+> Objetivo: Crear una base de datos sólida y replicable que permita almacenar, consultar y automatizar la carga de datos climatológicos del INSIVUMEH.
 
 ---
 
@@ -30,7 +30,7 @@ Con estos pasos completados, tendrás:
 
 ---
 
-## 🛣️ Próximos pasos recomendados
+## 🛣️ Próximos pasos
 
 - ⚙️ Automatización diaria de carga de nuevos datos.
 - 💾 Backups automáticos de la base de datos.
@@ -44,5 +44,5 @@ Con estos pasos completados, tendrás:
 
 ---
 
-¡Proyecto en desarrollo activo! 🚀  
-¡Con este manual, cualquier persona puede replicar y aportar a la base de datos climatológica de Guatemala!
+¡Proyecto en desarrollo! 🚀  
+
