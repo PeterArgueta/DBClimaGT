@@ -1,7 +1,6 @@
 # 🌎 DBClimaGT — Base de Datos Climatológica de Guatemala
 
-> **Proyecto personal de documentación, automatización y análisis de datos climáticos históricos para Guatemala.**
->
+> **Proyecto personal de documentación, automatización y análisis de datos climáticos históricos para Guatemala.**  
 > Objetivo: Crear una base de datos sólida y replicable que permita almacenar, consultar y automatizar la carga de datos climatológicos desde Ubuntu, para uso técnico, académico y de toma de decisiones.
 
 ---
