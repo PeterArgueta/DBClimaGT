@@ -35,8 +35,6 @@ Con estos pasos completados, tendrás:
 - ⚙️ Automatización diaria de carga de nuevos datos.
 - 💾 Backups automáticos de la base de datos.
 - 🌐 Exposición de la base como API pública.
-- 📊 Generación automática de reportes climáticos.
-- 🚀 Expansión para datos en tiempo real.
 
 ---
 
