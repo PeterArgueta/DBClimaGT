@@ -1,39 +1,23 @@
-# Manual General — Instalación y Carga de la Base de Datos Climatológica
+# 🌎 DBClimaGT — Base de Datos Climatológica de Guatemala
 
-> **Objetivo:**  
-> Esta guía reúne todos los pasos necesarios para instalar, configurar y cargar una base de datos climatológica completa en una computadora con Ubuntu. Cada paso está documentado en archivos independientes para facilitar su seguimiento.
-
----
-
-## 🧭 Índice de pasos
-
-### ✅ Preparación del entorno
-
-1. **Paso 1 — Instalación de PostgreSQL y PostGIS en Ubuntu**  
-   Configuramos PostgreSQL como sistema de base de datos y activamos PostGIS para trabajar con datos geoespaciales.
-
-2. **Paso 2 — Creación de la Base de Datos y la Tabla Climatológica**  
-   Creamos la base de datos `climatologia` y la tabla `datos_climaticos` que almacenará la información meteorológica.
-
-3. **Paso 3 — Configuración de la Contraseña para el Usuario de la Base de Datos**  
-   Establecemos una contraseña segura para el usuario `postgres` para permitir conexiones externas.
+> **Proyecto personal de documentación, automatización y análisis de datos climáticos históricos para Guatemala.**
+>
+> Objetivo: Crear una base de datos sólida y replicable que permita almacenar, consultar y automatizar la carga de datos climatológicos desde Ubuntu, para uso técnico, académico y de toma de decisiones.
 
 ---
 
-### ✅ Preparación del entorno de desarrollo
+## 📖 Manual de Instalación y Carga
 
-4. **Paso 4 — Preparar el Entorno Python e Instalar Dependencias**  
-   Instalamos Python y todas las librerías necesarias para manipular datos y conectarnos a la base de datos.
+Cada paso está documentado de manera modular para que cualquier persona pueda replicarlo fácilmente en su propia computadora Ubuntu.
 
-5. **Paso 5 — Crear el Script de Importación Masiva de Datos Climatológicos**  
-   Escribimos el script que permitirá cargar eficientemente grandes volúmenes de datos climatológicos desde CSV hacia PostgreSQL.
+### 🧭 Índice de pasos
 
----
-
-### ✅ Ejecución y verificación final
-
-6. **Paso 6 — Ejecutar la Carga y Verificar los Datos Importados**  
-   Ejecutamos el script de importación y verificamos que los datos hayan sido cargados correctamente en la base de datos.
+1. [Paso 1 — Instalación de PostgreSQL y PostGIS en Ubuntu](01_instalacion_postgres_postgis.md)
+2. [Paso 2 — Creación de la Base de Datos y la Tabla Climatológica](02_creacion_base_tabla.md)
+3. [Paso 3 — Configuración de la Contraseña para el Usuario de la Base de Datos](03_configuracion_usuario_postgres.md)
+4. [Paso 4 — Preparar el Entorno Python e Instalar Dependencias](04_entorno_python_dependencias.md)
+5. [Paso 5 — Crear el Script de Importación Masiva de Datos Climatológicos](05_script_importacion.md)
+6. [Paso 6 — Ejecutar la Carga y Verificar los Datos Importados](06_ejecucion_importacion_verificacion.md)
 
 ---
 
@@ -43,16 +27,17 @@ Con estos pasos completados, tendrás:
 
 - 🗄️ Base de datos robusta y escalable con soporte geoespacial.
 - ✅ Datos climatológicos históricos cargados exitosamente.
-- 🧩 Entorno de trabajo preparado para automatización y futuras expansiones.
+- 🔧 Entorno de trabajo preparado para automatización y futuras expansiones.
 
 ---
 
-## 🔜 Próximos pasos recomendados
+## 🛣️ Próximos pasos recomendados
 
-- Automatización diaria de carga de nuevos datos.
-- Backups automáticos de la base de datos.
-- Exposición de la base como API pública.
-- Generación automática de reportes climáticos.
+- ⚙️ Automatización diaria de carga de nuevos datos.
+- 💾 Backups automáticos de la base de datos.
+- 🌐 Exposición de la base como API pública.
+- 📊 Generación automática de reportes climáticos.
+- 🚀 Expansión para datos en tiempo real.
 
 ---
 
@@ -66,5 +51,6 @@ Con estos pasos completados, tendrás:
 
 ---
 
-¡Con este índice, tu documentación queda ordenada y lista para ser compartida o ampliada! 🚀
+¡Proyecto en desarrollo activo! 🚀  
+¡Con este manual, cualquier persona puede replicar y aportar a la base de datos climatológica de Guatemala!
 
