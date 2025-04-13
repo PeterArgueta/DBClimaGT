@@ -40,13 +40,6 @@ Con estos pasos completados, tendrás:
 
 ---
 
-## 🤝 Colaboradores
-
-- **Peter Argueta** — Coordinador del proyecto, análisis de datos y documentación
-- **Asistente AI** — Soporte técnico, documentación modular y automatización de flujos
-
----
-
 **Versión del documento: 13 abril 2025**
 
 ---
