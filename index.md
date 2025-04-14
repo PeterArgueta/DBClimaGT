@@ -36,7 +36,7 @@ Si no, instalalo siguiendo la guía oficial: https://docs.docker.com/get-docker/
 ### 1. Cloná este repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/DBClimaGT.git
+git clone https://github.com/PeterArgueta/DBClimaGT.git
 cd DBClimaGT
 ```
 
