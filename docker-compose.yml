@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  db:
+    build: .
+    container_name: dbclimagt
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./data:/data
+    environment:
+      POSTGRES_DB: climatologia
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: gEdal&{+A0pu9hN=fA~)
+    restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
+
+  init:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    command: ["bash", "/scripts/init-db.sh"]
+    volumes:
+      - ./data:/data
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: climatologia
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: gEdal&{+A0pu9hN=fA~)
+    restart: "no"
+
+volumes:
+  pgdata:
