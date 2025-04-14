@@ -18,7 +18,7 @@ echo "✅ PostgreSQL está listo."
 DATA_FILE="/data/data_1960-2025.csv"
 
 # URL de descarga del CSV
-DATA_URL="https://drive.google.com/uc?export=download&id=1BYuJeEGa0ZxEXBcPUe5Shny_vfKe4PM7"
+DATA_URL="https://www.dropbox.com/scl/fi/k1458ldv1uj2zkbmmugkc/data_1960-2025.csv?rlkey=x3ekvqta7zlnikek0q9enj1j9&st=gjashjw0&dl=0"
 
 
 # Verificar si el archivo CSV existe
