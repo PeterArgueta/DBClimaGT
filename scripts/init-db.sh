@@ -18,8 +18,8 @@ echo "✅ PostgreSQL está listo."
 DATA_FILE="/data/data_1960-2025.csv"
 
 # URL de descarga del CSV
-DATA_URL="https://drive.usercontent.google.com/download?id=1BYuJeEGa0ZxEXBcPUe5Shny_vfKe4PM7&export=download&authuser=0&confirm=t&uuid=1b7e13a2-8e39-4e3b-a785-70ae61e28c5a&at=APcmpozzAPAGWFUdqG-5Kg3RLIe_%3A1744602682922
-"
+DATA_URL="https://drive.google.com/uc?export=download&id=1BYuJeEGa0ZxEXBcPUe5Shny_vfKe4PM7"
+
 
 # Verificar si el archivo CSV existe
 if [ ! -f "$DATA_FILE" ]; then
