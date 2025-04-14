@@ -1,16 +1,14 @@
 # 🌧️ DBClimaGT — Base de Datos Climatológica de Guatemala
 
-Automatiza la creación de una base de datos PostgreSQL + PostGIS para datos climatológicos de Guatemala, usando Docker.
-
-Con este proyecto, podés importar fácilmente datos históricos de estaciones meteorológicas y dejar tu base lista para análisis.
+Creación de una base de datos PostgreSQL + PostGIS para datos climatológicos de Guatemala, usando Docker.
 
 ---
 
 ## 🚀 ¿Qué hace este proyecto?
 
 - 🔥 Levanta una base de datos PostgreSQL lista para usar.
-- 🔥 Importa automáticamente el dataset climatológico masivo (~841,000 registros).
-- 🔥 Protege la base para que no se duplique la info si lo volvés a correr.
+- 🔥 Importa automáticamente el dataset climatológico masivo (1960-2025 (Marzo)).
+- 🔥 Protege la base para que no se duplique la información si lo volvés a correr.
 - 🔥 Todo el flujo está automatizado y limpio con Docker.
 - 🐳 Ideal para ciencia de datos, análisis climático, o proyectos de consulta pública.
 
@@ -18,7 +16,7 @@ Con este proyecto, podés importar fácilmente datos históricos de estaciones m
 
 ## 🧹 Requisitos previos
 
-- Tener instalado Docker y Docker Compose en tu compu.
+- Tener instalado Docker y Docker Compose en tu computadora.
 
 Verificá que Docker esté instalado:
 
@@ -40,25 +38,13 @@ git clone https://github.com/PeterArgueta/DBClimaGT.git
 cd DBClimaGT
 ```
 
-### 2. Agregá tu archivo de datos
-
-Poné tu archivo CSV en la carpeta `/data/` con el siguiente nombre:
-
-```
-data/data_1960-2025.csv
-```
-
-> 📌 **Importante:**  
-> - El archivo debe estar separado por `;`
-> - Que incluya columnas como: `FECHA;NOMBRE_ESTACIÓN;CODIGO;...`
-
-### 3. Dale permisos de ejecución al script
+### 2. Dale permisos de ejecución al script
 
 ```bash
 chmod +x start.sh stop.sh
 ```
 
-### 4. Corré el proyecto
+### 3. Ejecutar el proyecto
 
 Ejecutá el script de inicio automático:
 
@@ -94,7 +80,7 @@ Corré el script de parada automática:
 ./stop.sh
 ```
 
-> 🧹 **Importante:** Este comando limpia **solo** los contenedores, volúmenes y redes del proyecto DBClimaGT. Docker seguirá instalado en tu compu y otros proyectos que tengas no se verán afectados.
+> 🧹 **Importante:** Este comando limpia **solo** los contenedores, volúmenes y redes del proyecto DBClimaGT. Docker seguirá instalado en tu computadora y otros proyectos que tengas no se verán afectados.
 
 ---
 
