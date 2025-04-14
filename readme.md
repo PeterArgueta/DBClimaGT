@@ -19,7 +19,7 @@ Automatiza una base de datos PostgreSQL + PostGIS para datos climatológicos de 
 ## 🚀 ¿Qué hace este proyecto?
 
 - 🔥 Levanta una base de datos PostgreSQL lista para usar.
-- 🔥 Importa automáticamente el dataset climatológico masivo (1960- Marzo2025).
+- 🔥 Importa automáticamente el dataset climatológico masivo (1960- Marzo 2025).
 - 🔥 Protege la base para que no se duplique la info si lo volvés a correr.
 - 🔥 Todo el flujo está automatizado y limpio con Docker.
 - 🐳 Ideal para ciencia de datos, análisis climático, o proyectos de consulta pública.
@@ -28,7 +28,7 @@ Automatiza una base de datos PostgreSQL + PostGIS para datos climatológicos de 
 
 ## 🧹 Requisitos previos
 
-- Tener instalado Docker y Docker Compose en tu compu.
+- Tener instalado Docker y Docker Compose en tu computadora.
 
 Verificá que Docker esté instalado:
 
